@@ -76,3 +76,27 @@ For api's operation, you can see
 ```
 
 NB: You can see the all kinds of log from project log folder.
+
+### Some Docker Commands
+To build and up the container.
+```sh
+docker-compose up -d --build
+```
+
+To down the container
+```sh
+docker-compose down
+```
+To up the specific container.
+```sh
+docker-compose up <container_name>
+```
+To down the specific container.
+```sh
+docker-compose down <container_name>
+```
+
+To checking the container from bash terminal.
+```sh
+docker exec -it <Container ID> bash 
+```
