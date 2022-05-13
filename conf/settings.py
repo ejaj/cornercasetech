@@ -26,7 +26,7 @@ environ.Env.read_env(env_file)
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-9#^-7*-me3(zj-3c67ky9$pzh!rc_a!^z!tmw(w=_-k_te*fob'
+SECRET_KEY = env('SECRET_KEY')
 
 AUTH_USER_MODEL = 'user.User'
 
