@@ -36,9 +36,8 @@ docker-compose up -d --build
 
 Then browse: http://127.0.0.1:8000/admin
 
-For api's operation, you can see
-[ api documentation doc](APIdocumentation.pdf)
-````
+For api's operation, you can see [ api documentation doc](APIdocumentation.pdf)
+```
 ## Run the project on localhost.
 
 Set a blank value for DOCKER variable on env file.
